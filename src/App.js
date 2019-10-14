@@ -1,8 +1,9 @@
 import React from 'react';
-import Contact from './components/Contact';
+//import Contact from './components/Contact';
+import ContactList from './components/ContactList';
 
 
-function App() {
+/*function App() {
   return (
     <div className="App">
       <Contact 
@@ -17,6 +18,15 @@ function App() {
       
     </div>
   );
+}*/
+
+function App() {
+  return (
+    <div className="App">
+      <ContactList/>
+    </div>
+  );
 }
+
 
 export default App;
