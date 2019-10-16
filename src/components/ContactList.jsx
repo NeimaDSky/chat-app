@@ -1,4 +1,5 @@
 import React from 'react';
+import Contact from './Contact';
 import './Chat.css';
 
 const user = [{
@@ -44,7 +45,7 @@ const user = [{
 const ContactList = () => (
     <div>
         {user.map(item => (
-            <ContactList avatar={item.avatar}name={item.name}birthday={item.birthday}adress={item.adress}online={item.online}/>
+            <Contact avatar={item.avatar} name={item.name} birthday={item.birthday} adress={item.adress} online={item.online}/>
         ))}
     </div>
 );
